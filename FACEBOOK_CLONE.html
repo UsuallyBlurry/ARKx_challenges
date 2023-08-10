@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Facebook - Log in or sign up</title>
+  <link rel="icon" type="image/x-icon" href="/PICS/FB_ICON.webp">
+</head>
+  <style>
+    * {
+      margin: 0px;
+      padding: 0px;
+      font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+      box-sizing: border-box;
+    }
+    body { 
+      background-color: #F0F2F5;
+      height: 100vh;
+    }    
+    .logo {
+      width: 300px;
+      height: auto;
+      margin: -28px;
+      
+    }
+.left-content {
+  padding:  165px 180px;
+}
+input {
+  width: 370px;
+  height: 1.2cm;
+  border: lightgray solid 1px;
+  border-radius: 5px;
+  outline: none;
+  margin: 10px 0px 10px 0px;
+  padding: 10px;
+  font-size: medium;
+}
+hr {
+  margin: 17px 0px
+}
+a {
+  text-decoration: none; 
+}
+a:hover {
+  text-decoration: underline;
+}
+input:focus {
+  border-color: #1877F2  
+}
+.button {
+  background-color: #1877F2;
+  color: white;
+  font-size: medium;
+  font-weight: bold;
+  cursor: pointer;
+}
+.form {
+  background-color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px 0px rgba(168, 159, 159, 0.8);
+  width: 400px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.create-button {
+  text-align: center;
+  padding: 0px 15px 20px 15px;
+}
+button {
+  color: white;
+  background-color: #36A420;
+  font-weight: bold;
+  height: 1.2cm;
+  width: 49%;
+  border-radius: 5px;
+  border: none;
+  margin-top: 10px;
+  padding: 5px;
+  font-size: medium;
+  opacity: 0.9;
+  cursor: pointer;
+}
+button:hover {
+  opacity: 1;
+}
+.last-one {
+  text-align: center;
+
+}
+.last-one span a {
+  color: black;
+  font-weight: bold;
+}
+  </style>
+<body>
+  <div class="main">
+    <table>
+      <tr>
+        <td>
+          <div class="left-content">
+            <img class="logo" src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg" alt="Facebook">
+            <p style="font-size: x-large;">
+              Facebook helps you connect and share<br>with the people in your life.
+            </p>
+          </div>
+        </td>
+        <td>
+          <div class="form">
+            <form>
+              <input type="email" placeholder="Email address or phone number">
+              <input type="password" placeholder="Password">
+              <input type="button" value="Log in" class="button">
+            </form>
+            <a href="https://www.youtube.com/watch?v=rIO5326FgPE&ab_channel=WebDevSimplified">Forgotten password?</a>
+            <div class="create-button">
+              <hr>
+              <button>Create new account</button>
+            </div>
+          </div>
+          <div class="last-one">
+            
+              <span><a href="#">Create a page </a>for a celebrity, brand or business.</span>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </div>
+</body>
+</html>
