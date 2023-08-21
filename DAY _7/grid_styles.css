@@ -1,0 +1,212 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+ 
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  height: 5rem;
+  padding-top: 3rem;
+  color: aliceblue;
+}
+
+i {
+  color:aliceblue;
+}
+
+body {
+  background-color: rgb(56, 49, 49);
+  margin: 0 5%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: aliceblue;
+}
+
+.grid-container {
+  margin: 0px;
+  display: grid;
+  grid-template-columns: 35% 15% 15% 35%;
+  grid-template-rows: 40% 20% 20% 20% 20%;
+  height: 200vh;
+}
+
+.grid-items{
+  background-color: antiquewhite;
+}
+
+.item1 {
+  background-image: url(https://images.pexels.com/photos/3769138/pexels-photo-3769138.jpeg?auto=compress&cs=tinysrgb&w=600);
+  grid-column: span 4;
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: cover;
+  color: rgb(208, 248, 245);
+  position: relative;
+}
+
+.top {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  line-height: 2rem;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+}
+
+.bottom button {
+  border: 1px solid saddlebrown;
+  border-radius: .1em;
+  background-color: transparent;
+  height: 3em;
+  width: fit-content;
+  padding: 5px;
+  box-shadow: .6px .6px rgb(122, 88, 16);
+  cursor: pointer;
+  color: aliceblue;
+}
+
+.bottom button:hover {
+  background-color: burlywood;
+  transition: 1s;
+  color: brown;
+}
+
+.round-buttons {
+  position: absolute;
+  bottom: 8%;
+  left: 45%;
+}
+
+.round-buttons button {
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.round-buttons button:hover {
+  background-color: rgb(9, 40, 66);
+  transition: 1s;
+}
+
+.top h1, h3, p {
+  font-weight: bolder;
+}
+
+.item2 {
+  
+  background-image: url(https://images.pexels.com/photos/2850290/pexels-photo-2850290.jpeg?auto=compress&cs=tinysrgb&w=600);
+  background-position: center;
+}
+
+.item3 {
+  background-color: #000E0F;
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-image: url(https://images.pexels.com/photos/865773/pexels-photo-865773.jpeg?auto=compress&cs=tinysrgb&w=600);
+  grid-column: span 3;
+  background-size: contain;
+  position: relative;
+}
+
+.item4 {
+  background-image: url(https://images.pexels.com/photos/3764958/pexels-photo-3764958.jpeg?auto=compress&cs=tinysrgb&w=600);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  grid-column: span 3;
+  position: relative;
+}
+
+.bottom-right button {
+  border: 1px solid lightgray;
+  border-radius: 1px;
+  background-color: transparent;
+  height: 40px;
+  width: fit-content;
+  padding: 4px;
+  box-shadow: .6px .6px rgb(73, 71, 65);
+  cursor: pointer;
+  color: aliceblue;
+}
+
+.bottom-right button:hover {
+  background-color: lightslategray;
+  transition: 1s;
+  color: rgb(235, 217, 217);
+}
+
+.top-right {
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  line-height: 2rem;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 15%;
+  left: 70%;
+}
+
+.item5 {
+  background-image: url(https://images.pexels.com/photos/7096339/pexels-photo-7096339.jpeg?auto=compress&cs=tinysrgb&w=600);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  grid-row: span 2;
+  position: relative;
+}
+
+.item6 {
+  background-image: url(https://images.pexels.com/photos/16345793/pexels-photo-16345793/free-photo-of-lens.jpeg?auto=compress&cs=tinysrgb&w=600);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.square-top {
+  position: absolute;
+  top: 28px;
+  left: 60px;
+}
+
+.square-bottom {
+  position: absolute;
+  bottom: 30px;
+  left: 190px;
+}
+
+.item7 {
+  background-image: url(https://images.pexels.com/photos/3250384/pexels-photo-3250384.jpeg?auto=compress&cs=tinysrgb&w=600);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  grid-column: span 2;
+}
+
+.item8 {
+  background-image: url(https://images.pexels.com/photos/733853/pexels-photo-733853.jpeg?auto=compress&cs=tinysrgb&w=600);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  grid-column: span 2;
+}
+
+.item9 {
+  grid-column: span 2;
+  background-image: url(https://images.pexels.com/photos/5185163/pexels-photo-5185163.jpeg?auto=compress&cs=tinysrgb&w=600);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
